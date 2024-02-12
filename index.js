@@ -20,8 +20,7 @@ function calcular(){
         }else{
             mensaje = "Sobresaliente🎉"
         }
-        document.getElementById("msjReprobado").innerHTML = `<div class="alert alert-info" role="alert">${mensaje}</div>
-      `
+        document.getElementById("msjReprobado").innerHTML = `<div class="alert alert-info" role="alert">${mensaje}</div>`
         document.getElementById("resultado").value = notaFinal;
     }
 }
@@ -31,5 +30,5 @@ function limpiar(){
    document.getElementById("notaParcial2").value = 0;
    document.getElementById("notaParcial3").value = 0;
    document.getElementById("resultado").value = 0;
-
+   document.getElementById("msjReprobado").innerHTML = "";
 }
