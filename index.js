@@ -12,13 +12,13 @@ function calcular(){
         const notaFinal = (parcialUno*0.3) +(parcialDos*0.3) +(parcialTres*0.4);
         let mensaje ="";
         if(notaFinal <60){
-            mensaje = "Reprobado"
+            mensaje = "Reprobado😧"
         }else if(notaFinal <80){
-            mensaje = "Bueno"
+            mensaje = "Bueno🙂"
         }else if(notaFinal <90){
-            mensaje = "Muy Bueno"
+            mensaje = "Muy Bueno✨"
         }else{
-            mensaje = "Sobresaliente"
+            mensaje = "Sobresaliente🎉"
         }
         document.getElementById("msjReprobado").innerHTML = `<div class="alert alert-info" role="alert">${mensaje}</div>
       `
